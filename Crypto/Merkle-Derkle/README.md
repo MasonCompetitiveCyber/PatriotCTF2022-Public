@@ -1,6 +1,6 @@
 # Merkle-Derkle
 
-p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/blob/main/Crypto/Merkle-Derkle/INSTALL.md)
+p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/blob/main/Crypto/Merkle-Derkle/INSTALL.md)
 
 NOTE: Provide only `main.py` in the challenge
 

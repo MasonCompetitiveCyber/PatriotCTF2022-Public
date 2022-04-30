@@ -1,6 +1,6 @@
 # Curly Fry
 
-p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/blob/main/Web/Curly%20Fry/INSTALL.md)
+p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/blob/main/Web/Curly%20Fry/INSTALL.md)
 
 ### Description
 Who needs Flask when you have Golang -- the new meta for web apps. Check out this super slick and functional website. 

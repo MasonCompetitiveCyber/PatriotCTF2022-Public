@@ -22,7 +22,7 @@ None yet
 
 Here is the cipher image:
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/Crypto/The%20Order/cipher.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/Crypto/The%20Order/cipher.png" width=40%  height=40%></p>
 
 After some reverse image searches and Googling, you may stumble upon the Cistercian number system that looks like this:
 

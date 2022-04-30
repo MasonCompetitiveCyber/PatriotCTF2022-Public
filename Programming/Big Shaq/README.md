@@ -1,6 +1,6 @@
 # Big Shaq
 
-p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/blob/main/Programming/Big%20Shaq/INSTALL.md)
+p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/blob/main/Programming/Big%20Shaq/INSTALL.md)
 
 ### Description
 Are you on Big Shaq's math level? Solve 5 questions before the time runs out to see if you're worthy.

@@ -1,4 +1,4 @@
-# PatriotCTF-2022
+# PatriotCTF2022-Public
 
 Here are *most* of the challenges from [PatriotCTF 2022](https://ctftime.org/event/1616)!
 

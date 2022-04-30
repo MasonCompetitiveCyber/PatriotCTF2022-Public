@@ -22,7 +22,7 @@ None yet
 ### Writeup
 
 Here is the image:
-<img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/Recon/Hunter/hunter.png" width=40%  height=40%>
+<img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/Recon/Hunter/hunter.png" width=40%  height=40%>
 
 The tail has an image of a puffin. This is Frontier's plane: https://www.flyfrontier.com/plane-tails/sky-animals/captain-the-puffin/?mobile=true
 

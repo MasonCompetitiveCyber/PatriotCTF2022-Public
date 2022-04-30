@@ -1,6 +1,6 @@
 # Excellent Database
 
-p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/blob/main/Web/Excellent%20Database/INSTALL.md)
+p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/blob/main/Web/Excellent%20Database/INSTALL.md)
 
 ### Description
 I am in the process of making the next big social media platform but I have a history of implementing software insecurely. If you can get into the admin user, I will give you a flag. 

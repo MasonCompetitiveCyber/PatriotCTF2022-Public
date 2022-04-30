@@ -21,7 +21,7 @@ None yet
 ### Writeup
 
 Here is the cipher image:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/Crypto/Fly/cipher.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/Crypto/Fly/cipher.png" width=40%  height=40%></p>
 
 These series of images are traces of a google keyboard when using the "glide typing" method (called "swipe typing" on iphones) of typing on a smartphone keyboard. To solve this, just overlay each image over a google keyboard and figure out the word that must have been spelled with that trace. Let's start with a screenshot of the first image in the cipher.
 
