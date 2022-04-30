@@ -211,4 +211,4 @@ for _ in range(flag_len):
             break
 ```
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/solve-ecb.png" width=20%  height=20%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/solve-ecb.png" width=20%  height=20%></p>

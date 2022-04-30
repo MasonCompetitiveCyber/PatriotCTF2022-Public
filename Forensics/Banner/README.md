@@ -22,11 +22,11 @@ None yet
 
 This challenge involves binwalking a squashfs filesystem from TCP data in a pcap. We see this packet in the pcap:
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/pcap_messages.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/pcap_messages.png" width=40%  height=40%></p>
 
 Follow the TCP stream and some data being sent:
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/banner_data.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/banner_data.png" width=60%  height=60%></p>
 
 Conver it to "Raw" and wait for all of it to load before saving. Once that's done, let's run binwalk on it:
 
@@ -39,8 +39,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```
 
 Let's extract it with `binwalk -e data`:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/banner_extracted.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/banner_extracted.png" width=60%  height=60%></p>
 
 If you just do some quick enumeration, you'll see an `etc/banner` file (this exists because this the filesystem of TP-Link Router Firmware, which store their banner in `etc/banner`).
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/banner_flag.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/banner_flag.png" width=60%  height=60%></p>

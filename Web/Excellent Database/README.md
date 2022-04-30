@@ -112,16 +112,16 @@ We see that we are using a `.xlsx` (Excel) file as a database. We read from this
 Basically, if we put an Excel formula as our password, we should see the result after sign up.
 
 When we sign up on the web app, we see our password is reflected back to us:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/excel_test.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/excel_test.png" width=40%  height=40%></p>
 
 Now let's put in an Excel formula, such as `=(7*7)`:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/excel_49.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/excel_49.png" width=40%  height=40%></p>
 
 Perfect. Now let's figure out what this Excel database looks like. Let's start with maybe what cells A1 and B1 hold (cause they're the first two cells on a sheet). Our password has to be `=CONCATENATE(A1, " ", B1)`:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/excel_table_headers.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/excel_table_headers.png" width=40%  height=40%></p>
 
 Sweet, those look like table headers to me. You can use the same concatenate function to get all values of a certain row, but we can be almost positive the admin user's password will be the first in the table, thus it's location is at B2. Let's make our password `=B2`:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/excel_b2.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/excel_b2.png" width=40%  height=40%></p>
 
 Now just log in as `admin:SuperStrongPassword` and go to the admin panel to see the flag:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/excel_admin.png" width=70%  height=70%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/excel_admin.png" width=70%  height=70%></p>

@@ -111,4 +111,4 @@ p.close()
 ```
 
 You can see that we send a message created exactly how we talked about before. Let's run it:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/solve-cryptogod.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/solve-cryptogod.png" width=40%  height=40%></p>

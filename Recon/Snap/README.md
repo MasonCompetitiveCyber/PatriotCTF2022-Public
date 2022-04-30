@@ -33,5 +33,5 @@ Here are the three screenshots:
 
 If you find those places on google maps and look around for a bit, you should notice that each one has some sort of weigh station or truck scale. We can also see that the person is traveling south on I-25. Searching south of the last stop in Pueblo for truck weigh stations, the next one is `Weigh Station: Trinidad`.
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/trinidad_map.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/trinidad_map.png" width=40%  height=40%></p>
 

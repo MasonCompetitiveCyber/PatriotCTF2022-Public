@@ -111,4 +111,4 @@ done
 ```
 
 Run it:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/merkle-solve.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/merkle-solve.png" width=40%  height=40%></p>

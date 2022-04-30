@@ -41,6 +41,6 @@ else:
 
 Briefly looking over it you can see it's XORing our input with `ABCDEFGHIJKLMNOP` and checking against hex `110117023e3273237a157f133d372c2d`. To get the flag, we just XOR `ABCDEFGHIJKLMNOP` with hex `110117023e3273237a157f133d372c2d`.
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/pyc-solve.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/pyc-solve.png" width=40%  height=40%></p>
 
 Note: the decompiled code has this weird `lambda` and `.0` stuff, but that shouldn't really hinder finding the solution

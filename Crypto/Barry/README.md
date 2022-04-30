@@ -50,4 +50,4 @@ zyyxwvutsrxzqqptxotqzonxmzluzruxtrkjwjuntxozizhjjnkxgqvhjzhqjrxmqiurnoutsnzwjrxx
 ```
 
 Now plug it in https://www.boxentriq.com/code-breaking/cryptogram to solve it:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/barry-solve.png" width=70%  height=70%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/barry-solve.png" width=70%  height=70%></p>

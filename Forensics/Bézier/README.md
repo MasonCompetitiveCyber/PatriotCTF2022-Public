@@ -24,7 +24,7 @@ None yet
 
 Basically, we just need to find the difference in the two registry files in the zip folder. The easiest way to do this is with the built-in linux tool `diff`.  
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/screensaver.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/screensaver.png" width=40%  height=40%></p>
 
 We see `SCRNSAVE.EXE"="C:\\Users\\Daniel\\Desktop\\shell.exe`, which looks sketchy. In Microsoft [docs](https://docs.microsoft.com/en-us/windows/win32/devnotes/scrnsave-exe), we see that this registry key "specifies the name of the screen saver executable file". Given that this executable is named "shell.exe", we can infer this is the method of persistence used by the hacker.
 

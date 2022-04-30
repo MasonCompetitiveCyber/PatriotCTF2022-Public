@@ -28,7 +28,7 @@ None yet
 ### Writeup
 
 Here is the image provided:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/cool_planes.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/cool_planes.png" width=40%  height=40%></p>
 
 Visible in this image is a clearly sandy environment, some hangars, and the stars of the show: three Iranian F-14 Tomcats. If you aren't an aviation geek like me, the challenge title "Runway to the Danger Zone" alludes to the song 'Highway to the Danger Zone' which featured in the film Top Gun that has the iconic Tomcat as its main aircraft. The film's title is also hinted at in the phrase "You're one of our **top** analysts and we know you are **gunning** for a promotion so we've given the task to you". The aircraft has an incredibly distinct and unique silhouette, so even if these hints aren't picked up on, a google search of "fighter jets" will give the F-14 as one of its results which can then be used to pinpoint the aircraft.
 
@@ -36,7 +36,7 @@ Following up on this hint, we can see that this aircraft has only been fielded b
 
 Searching around for Iranian Air bases nets a wikipedia page simply titled "List of Iranian Air Force bases" and a list that contains the following:
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/Iranian_Tactical_Airbases.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/Iranian_Tactical_Airbases.png" width=60%  height=60%></p>
 
 We can see that only two airbases are rumored to have F-14s: Isfahan and Mehrabad.
 

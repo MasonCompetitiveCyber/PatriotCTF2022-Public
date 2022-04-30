@@ -27,10 +27,10 @@ None yet
 Once you figure out the data structure of the L2CAP packets, it is trivial.
 
 First, if we open `mouse.pcapng`, we will see the following data if we filter by `btl2cap`. The payloads are not very human-readable.
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/l2cap_packets.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/l2cap_packets.png" width=60%  height=60%></p>
 
 A decent amount of googling is required to figure out what this data means. If you have a wireless mouse, capturing that data will probably help you figure out what's happening. Make sure you capture the bluetooth pairing of the mouse so wireshark can actually decode these packets, the data will look nice:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/readable-hid.png" width=30%  height=30%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/readable-hid.png" width=30%  height=30%></p>
 
 Another good place for packet structure is lines 174-182 of https://github.com/benizi/hidclient/blob/master/hidclient.c:
 ```c
@@ -92,6 +92,6 @@ plt.show()
 ```
 
 We only want to graph points when the mouse button was pressed but still update the mouse position when it's not pressed. Here is the output graph:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/mouse_graph.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/mouse_graph.png" width=60%  height=60%></p>
 
 It's not the prettiest and doesn't actually line up exactly with my original movements (probably because of bluetooth latency and frequency of sending packetse), but it's readable!

@@ -151,10 +151,10 @@ Basically, we are making infinite requests to where the `link.file` will be uplo
 
 Here is a gif of how I ran the two python scripts. I'm also running the web app normally and not through docker so you can see all the requests come in.
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/TaaS_solve.gif" width=100%  height=100%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/TaaS_solve.gif" width=100%  height=100%></p>
 
 The following image shows the tar decompression time difference between the `link` file and the `big` file:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/tar_decompression.png" width=50%  height=50%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/tar_decompression.png" width=50%  height=50%></p>
 
 You can see the `large.txt` file takes a whole 0.3 seconds to decompress, giving us plenty of time for the race condition. The bigger the file, the more time you have.  
 

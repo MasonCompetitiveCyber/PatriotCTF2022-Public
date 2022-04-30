@@ -24,7 +24,7 @@ None yet
 
 N has known prime factors. 
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/rsa250.png" width=60%  height=60%><br><em>https://en.wikipedia.org/wiki/RSA_numbers#RSA-250</em></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/rsa250.png" width=60%  height=60%><br><em>https://en.wikipedia.org/wiki/RSA_numbers#RSA-250</em></p>
 
 In RSA, these factors are `p` and `q`. These are used to find the decryption key `d`. Here's the solve in Python:
 

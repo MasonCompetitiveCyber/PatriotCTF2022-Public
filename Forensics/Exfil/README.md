@@ -21,10 +21,10 @@ None yet
 ### Writeup
 
 The data was exfil'd in the data section of ICMP packets. If you open the pcap in wireshark and filter by `data`, you'll se this:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/data_filter.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/data_filter.png" width=40%  height=40%></p>
 
 The `no response found` packets are not normal and are a bit sus. Click on one and you'll see data that looks like this:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/ping_data.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/ping_data.png" width=40%  height=40%></p>
 
 We see data in the form `data:1:39:some-hex`. If you click through them, you'll notice that the first section is either `data` or `checksum`. `data` means data is being sent and `checksum` means it's the last exfil packet with the checksum of the entire data. The 2nd section is just the sequence number of the exfil packet and the 3rd section is the total number of data packets. 
 

@@ -37,22 +37,22 @@ After changing the health value (to 0 or less), input anything (user input is ir
 Here's what that looks like visually:
 
 First we disassemble it in Ghidra and see that user input does nothing and that the main bypass must happen by changing the health value to pass the check and get the flag:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/ghidra_view.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/ghidra_view.png" width=60%  height=60%></p>
 
 Next, we run the process and attach a memory scanner to the process (I used Cheat Engine, but alternatives like Squalr, scanmem, and PINCE exist).
 
 Then, we scan for a value of 1000 (4-byte and non-hex) and see two values (sometimes just one):
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/first_scan.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/first_scan.png" width=60%  height=60%></p>
 
 To confirm which address is the correct one, we double-click on both (adding them to the memory manager), then right click on either one and select [find out what accesses this address]:
 One of them (0060FF14 in this instance) will show this:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/access_instr.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/access_instr.png" width=40%  height=40%></p>
 
 The most interesting instruction is the cmp dword ptr [esp + 44], 00
 
 In English, this means that the value held in esp (0060FED0) + 44 = (0060FF14) is being compared with 0. This is the check we need to bypass and confirms that this is the right address.
 
 Now all we need to do is change the value to 0, and we get the flag after entering our user value.
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/result.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/result.png" width=60%  height=60%></p>
 
 And there's the flag

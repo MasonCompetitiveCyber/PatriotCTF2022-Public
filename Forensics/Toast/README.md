@@ -22,7 +22,7 @@ To solve this challenge, first understand that you're looking for a removed list
 
 From there, the challenge title of "Toast" hints that this is a toast notification. Using this, we can sort the removed items by notification type, yeilding only two notifications.
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/fqlite.png"></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/fqlite.png"></p>
 
 Decoded, the notification payload is:
 ```

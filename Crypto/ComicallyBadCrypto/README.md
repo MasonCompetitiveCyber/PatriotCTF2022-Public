@@ -263,4 +263,4 @@ Now let's go through the steps to alter the cookie in such a way to flip the cor
 ```
 
 Let's go to our browser, replace the cookie, and reload the page:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/solve-cbc.png" width=70%  height=70%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/solve-cbc.png" width=70%  height=70%></p>

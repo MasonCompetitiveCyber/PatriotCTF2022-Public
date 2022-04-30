@@ -28,7 +28,7 @@ Here is the image:
 
 The first step is obviously to google "Waffle Cabin" or go to their website written on the sign (https://wafflecabin.com/). There are around 35 locations listed, and most have photos. Most of the ones with photos have do not look exactly like the one we have. There are only some that look similar, such as Okemo, Belleayre, Pico,Bretton Woods, Loon Mountain, and Mount Sunapee. Some of these have buildings in the background that would rule them out as candidates. The two trees behind the waffle cabin may be enough for some people to be confident with Okemo. One unique thing about this image is the skiier in the background on the right is wearing a full blue ski outfit.
 
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/ski_instructor_from_pic.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/ski_instructor_from_pic.png" width=40%  height=40%></p>
 
 This guy is actually a ski instructor, and ski instructors at different resorts have generally different "uniforms". This one looks like it could be Okemo or Mount Sunapee. 
 

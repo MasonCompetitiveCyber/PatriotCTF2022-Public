@@ -28,17 +28,17 @@ None yet
 ### Writeup
 
 This web app is vulnerable to template injection. After signing up, send a test SSTI message `{{7*7}}`:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/49.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/49.png" width=40%  height=40%></p>
 
 We see that 7*7 was evaluated to 49, so we have successful template injection. There is a filter in place blocking these characters: `._[]|\`. This is so you can't attempt to execute python code to run system commands 'cause I want it solved another way.
 
 In flask, we can have it give us the config file with this `{config}`, so let's try that:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/ssti_config.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/ssti_config.png" width=40%  height=40%></p>
 
 We see a `SECRET_KEY` set to `ifXEaNLEiDLIuquyRKzfeJJWzntoIm`. If we have the app's secret key, we can sign the session cookies used by the app. We'll use a tool called `flask-unsign` to do this for us (install w/ `pip3 install flask-unsign`).
 
 Let's first decode our user's session cookie so we know the format. I use the Firefox extension `cookie editor` to do all of this:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/cookie_editor.png" width=40%  height=40%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/cookie_editor.png" width=40%  height=40%></p>
 
 ```console
 $ flask-unsign --decode --cookie '.eJwlzjsOwjAMANC7ZGaIndiJe5nKvwjWlk6Iu1OJ_Q3vU_Z15Pks2_u48lH2V5StEHbpo3Nd1RqKDOuGWmUluufsPsBXDCRkng2gpbCBV01iEFgJLaoKhladZIBhrp2oUYwZrlNU0smYbjTnwMHALcAdsy6LckeuM4__Bsv3B3oyLwQ.YieZSw.Fox-K5Pj1Zq30KG5ZngqBFzRce8'
@@ -54,4 +54,4 @@ $ flask-unsign --sign --cookie "{'_fresh': True, '_id': '524947460f0b32997b4b2a0
 ```
 
 The final step is to change our session cookie value to the one we just got, and reload the webpage. We should be admin and have access to the admin panel:
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF-2022/raw/main/writeup-images/ssti_flag.png" width=60%  height=60%></p>
+<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/ssti_flag.png" width=60%  height=60%></p>
