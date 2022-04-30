@@ -1,0 +1,29 @@
+{% extends "nav_base.html" %}
+
+{% block below_nav %}
+<div class="px-4 py-5 text-center">
+    <h1>Messages</h1>
+</div>
+<div class="container-fluid flex-column d-flex col-6 justify-content-center">
+    {% for msg in messages %}
+    <div class="text-white border blue text-start mt-2 pt-2 ps-2">
+        <div class="flex-row d-flex mb-2">
+            <div class="col-6">
+                <h4>From:</h4>
+            </div>
+            <div class="text-start col-6">
+                <h4>{{msg.msg_from}}</h4>
+            </div>
+        </div>
+        <div class="flex-row d-flex mb-2">
+            <div class="col-6">
+                <h4>Message:</h4>
+            </div>
+            <div class="text-start col-6">
+                <h4>{{msg.message}}</h4>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

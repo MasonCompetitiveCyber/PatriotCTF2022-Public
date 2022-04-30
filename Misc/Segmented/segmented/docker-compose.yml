@@ -1,0 +1,22 @@
+version: "3"
+services:
+  ssh:
+    build: ssh
+    restart: unless-stopped
+    ports:
+      - "10007:22"
+    networks:
+      - tunnelsinc
+  web:
+    image: "nginx:stable-alpine"
+    restart: unless-stopped
+    volumes:
+      - "./web:/usr/share/nginx/html:ro"
+    networks:
+      tunnelsinc:
+        ipv4_address: 172.20.0.27
+networks:
+  tunnelsinc:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/26

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="px-4 py-5 text-center">
+    <h1>Not So Secret</h1>
+    <h5 class="text-white">My Super Secure Web App</h5>
+</div>
+
+<div>
+    <div class="form-signin">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="alert alert-{{category}} alert-dismissible" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <form method="POST" action="login">
+            <h2 class="h3 mb-3 fw-normal text-center text-capitalize">Please sign in</h2>
+            <div class="mb-3">
+                <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username">
+            </div>
+            <div class="mb-3">
+                <input type="password" name="password" class="form-control" id="floatingPassword"
+                    placeholder="Password">
+            </div>
+            <button class="w-100 btn btn-lg btn-dark" type="submit">Log In</button>
+        </form>
+        <form method=GET action="signup">
+            <button class="w-100 mt-2 btn btn-sm btn-link" type="submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

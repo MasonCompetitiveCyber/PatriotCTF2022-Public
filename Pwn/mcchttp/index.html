@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MCC</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+
+        .content {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        .tcontainer {
+            width: 100%;
+            overflow: hidden;
+            
+        }
+        
+        .ticker-wrap {
+            width: 100%;
+            padding-left: 100%;
+            background-color: green;
+            height:2em;
+        }
+        
+        @keyframes ticker {
+            100% {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+        
+        .ticker-move {
+            display: inline-block;
+            white-space: nowrap;
+            padding-right: 100%;
+            animation-timing-function: linear;
+            animation: ticker 40s infinite;
+        }
+        
+        .ticker-move:hover {
+            animation-play-state: paused;
+        }
+        
+        .ticker-item {
+            display: inline-block;
+            padding: 0 40px;
+            font-size: 20px;
+        }
+
+        .block1 {
+            background-color: chartreuse;
+        }
+
+        .block2 {
+            background-color: gold
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="tcontainer">
+        <div class="ticker-wrap">
+            <div class="ticker-move">
+                <div class="ticker-item">Mason Competitive Cyber - GMU's Cybersecurity Organization</div>
+                <div class="ticker-item">Home Calendar Join Docs TCTF PatriotCTF</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div>
+            <img src="https://competitivecyber.club/images/masoncc.svg" width="100px"/>
+            Mason Competitive Cyber
+        </div>
+        <div>
+            <p><strong>Mason CC is the competitive cybersecurity organization at GMU.</strong></p>
+            
+            <div class="block1">
+                Join us at our next meeting!
+                JC Room B
+                March 23
+                6:00pm to 7:00pm
+                RSVP
+            </div>
+                
+            </br>
+        
+            <div class="block2">
+                Want to Get Involved? Join our Chat!
+                If you are a George Mason student, click below and use your GMU email to sign up!
+            </div>
+            
+            </br>
+
+            <div class="block1">
+                Faculty/staff? The Slack is for students only. Feel free to email us instead at masoncc@gmu.edu.
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+stty raw -echo
+
+chown -R 0:0 /
+
+mkdir -p /proc && mount -t proc none /proc
+mkdir -p /dev  && mount -t devtmpfs devtmpfs /dev
+mkdir -p /tmp  && mount -t tmpfs tmpfs /tmp
+
+

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="px-4 py-5">
+    <h1>Sign Up Or Else!</h1>
+</div>
+
+<div>
+    <div class="form-signin">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="alert alert-danger" role="alert">
+            {{ messages[0] }}
+        </div>
+        {% endif %}
+        {% endwith %}
+        <form method="POST" action="signup">
+            <div class="mb-3">
+                <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username">
+            </div>
+            <div class="mb-3">
+                <input type="password" name="password" class="form-control" id="floatingPassword"
+                    placeholder="Password">
+            </div>
+            <button class="w-100 btn btn-lg btn-dark" type="submit">Sign Up</button>
+        </form>
+        <form method=GET action="login">
+            <button class="w-100 mt-2 btn btn-sm btn-link" type="submit">Back</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

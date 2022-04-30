@@ -1,0 +1,20 @@
+{% extends "nav_base.html" %}
+
+{% block below_nav %}
+<div class="px-4 py-5 text-center">
+    <h1>Here are your files:</h1>
+</div>
+
+<div class="d-flex justify-content-center flex-column col-12">
+    <ul class="list-group">
+        {% for file in files %}
+        <li>
+            <a href="{{ (request.path + '/' if request.path != '/' else '') + file }}">
+                {{ (request.path + '/' if request.path != '/' else '') + file }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

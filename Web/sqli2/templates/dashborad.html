@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<div class="HomeContainer">
+    <h1>HOME PAGE</h1>
+    <h1>WELCOME {{user}}</h1>
+    <!-- <center className="logo-container">
+      <img className="logo" src={Logo} />
+    </center> -->
+    <a href="{{url_for('index')}}"><button>Logout</button></a>
+    {% if flag %}
+        <h2>{{flag}}</h2>
+        <h4>YOU GOT US THIS TIME BUT DON'T GET TO EXCITED!!!</h4>
+    {% else %}
+        <h4>ONLY MEMBERS OF PHALERIOVIA CAN ACCESS IMPORTANT INFORMATION</h4>
+        <h4>IF YOU TRY TO HACK US WE WILL HACK YOU BACK</h4>
+    {% endif %}
+</div>
+
+
+{% endblock %}

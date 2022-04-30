@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Internal</title>
+	<style>
+		body {
+			text-align: center;
+			font-family: sans-serif;
+		}
+
+		@keyframes blink-animation {
+			from {
+				visibility: visible;
+			}
+
+			to {
+				visibility: hidden;
+			}
+		}
+
+		h2 {
+			color: white;
+			background-color: red;
+			animation: blink-animation 1s steps(5, start) infinite;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>INTERNAL</h1>
+	<h2>THIS IS A PROTECTED SYSTEM. NO UNAUTHORIZED ACCESS!</h2>
+	<p>You've proxied through and accessed our internal website. The secret key is available for you.</p>
+	<pre>PCTF{th1s_pr0xy_1s_sp0ns0r3d_by_n0rdvpn}</pre>
+</body>
+
+</html>

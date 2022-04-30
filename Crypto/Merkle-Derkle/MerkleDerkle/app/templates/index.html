@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="px-4 py-5 mt-2 container-fluid flex-column d-flex justify-content-center col-6">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="alert alert-{{category}} alert-dismissible container-fluid flex-column d-flex justify-content-center col-5 " role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <h1>Nothing here yet, but great things are planned!</h1>
+</div>
+{% endblock %}

@@ -1,0 +1,7 @@
+version: "3"
+services:
+  php:
+    build: .
+    image: pctf-inspector-clouseau
+    ports:
+      - "10008:80"

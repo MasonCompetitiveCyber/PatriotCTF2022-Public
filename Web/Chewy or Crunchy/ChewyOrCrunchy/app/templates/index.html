@@ -1,0 +1,39 @@
+{% extends "nav_base.html" %}
+
+{% block below_nav %}
+
+<div class="px-4 py-5 text-center">
+    <h1>Send Anybody A Message!</h1>
+</div>
+
+<div class="d-flex justify-content-center flex-column col-12">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="alert alert-{{category}} text-wrap align-self-center col-3 alert-dismissible" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+</div>
+
+<div class="container-fluid flex-column d-flex justify-content-center col-3">
+    <form style='margin-left: -12px; margin-right: -12px' id='form' method='POST' name="msgForm" action='messages'>    
+        <blockquote>
+            <div class='border blue align-self-center' style="height: 150px;">
+                <textarea id="msgBox" class='cursor border' type='text' name='message' placeholder='&block;'></textarea>
+            </div>
+        </blockquote>
+        <select class="form-select bg-dark text-white" style="margin-top: -18px;" name="username" required>
+            <option selected>Send to:</option>
+            {% for username in usernames %}
+            <option value={{username}}>To: {{username}}</option>
+            {% endfor %}
+        </select>
+        <button class="btn border blue text-white wrapper mt-3" type="submit" id="sendMsg">Submit</button>
+    </form>
+</div>
+
+{% endblock %}

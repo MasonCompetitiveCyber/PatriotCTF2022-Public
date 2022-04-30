@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  pctf-2022-streams:
+    build: .
+    ports:
+      - "445:445"

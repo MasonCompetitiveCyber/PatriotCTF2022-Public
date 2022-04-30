@@ -1,0 +1,35 @@
+{% extends "nav_base.html" %}
+
+{% block below_nav %}
+<div class="px-4 py-5 mt-2">
+    <h1>(un)Zip as a Service</h1>
+    <br>
+    <h5 class="text-white">Upload a .zip and I will unzip it for you :)</h1>
+</div>
+
+<div class="d-flex justify-content-center flex-column col-12">
+    <div class="mt-5"></div>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="alert alert-{{category}} text-wrap align-self-center col-3 alert-dismissible" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <div class="col-3 align-self-center">
+        <form method="POST" action="upload" enctype="multipart/form-data">
+            <div class="mb-3">
+                <input name="file" class="form-control form-control-md bg-light" type="file">
+            </div>
+            <button class="w-100 btn btn-lg btn-dark" type="submit">Upload</button>
+        </form>
+        <form method=GET action="delete">
+            <button class="w-100 mt-2 btn btn-sm btn-link" type="submit">Delete Uploaded Files</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

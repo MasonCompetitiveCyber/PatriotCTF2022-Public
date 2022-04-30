@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav class="navbar fixed-top navbar-text bg-transparent">
+    <div class="container-fluid d-flex justify-content-end">
+        <li class="nav-item dropdown me-4">
+            <a class="btn btn-lg btn-outline-info dropdown-toggle me-4" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" href="#">Hello, {{name}}</a>
+            <ul class="dropdown-menu dropdown-menu-start mt-1 ms-4 dropdown-menu-dark"
+                aria-labelledby="navbarDropdownMenuLink">
+                {% if name == 'admin' %}
+                <li>
+                    <a class="dropdown-item" href="/admin">Admin Panel</a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                {% endif %}
+                <li><a class="dropdown-item" href="/logout">Log Out</a></li>
+            </ul>
+        </li>
+    </div>
+</nav>
+{% block below_nav %}
+{% endblock %}
+
+{% endblock %}

@@ -1,0 +1,16 @@
+android 1
+  check deleted files and then filesystem then looking at the thumbnail listing
+  
+ android 2
+  there is a contacts tab in autopsy which is immediately obvious
+  
+  android 3
+    email can be found in web accounts tab
+    
+    
+ android 4
+  in the installed programs tab you can select library.db in com.facebook.katana and then move out of the com.android.vending folder to com.facebook.katana folder then you can go to /databases where you can get the app versiom from opening composer.db in dbbrowser for SQLite
+  
+  android 5 
+      in the installed programs tab you can select library.db in com.facebook.katana and then move out of the com.android.vending folder to com.facebook.katana folder then you can go to /databases where you can get the user id for the facebook profile from composer_db-uid 
+      which you can then get the url of the facebook htttps://www.facebook.com/profile.php?id=userid
