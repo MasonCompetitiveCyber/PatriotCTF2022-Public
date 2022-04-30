@@ -4,7 +4,7 @@
 We've found this very strange image and believe that it may be some sort of secret message. Can you decipher it?
 
 ### Difficulty
-6/10? Not sure yet.
+Hard
 
 ### Flag
 `PCTF{glide_typing_is_honestly_the_bomb!}`

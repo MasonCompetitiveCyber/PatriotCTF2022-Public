@@ -7,7 +7,7 @@ Example flag:
 PCTF{airportcode}
 
 ### Difficulty
-6/10
+Hard
 
 ### Flag
 `PCTF{IFN}`

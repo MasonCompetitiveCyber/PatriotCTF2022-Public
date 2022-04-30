@@ -8,7 +8,7 @@ Ciphertext: `2786 2532 4569 5221 1722 4172 490`
 WARNING! This is not a technical challenge!
 
 ### Difficulty
-5/10 Difficult mostly because of how silly it is.
+Medium
 
 ### Flag
 `pctf{Antioch}`

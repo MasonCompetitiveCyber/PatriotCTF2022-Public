@@ -5,7 +5,7 @@ Crackme
 This program is password protected, and I can't figure out how to crack it! Can you help me out here?
 
 # Difficulty
-2/10
+Easy
 
 # Flag
 pctf{YoU\_hav3\_Cr@cked\_Me!6789}

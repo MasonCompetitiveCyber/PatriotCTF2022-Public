@@ -5,7 +5,7 @@ were able to get her picture. Can you find her social media?
 
 ### Difficulty 
 
-2/10
+Medium
 
 
 ### Flag

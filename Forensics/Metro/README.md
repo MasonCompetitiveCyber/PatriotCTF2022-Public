@@ -7,8 +7,7 @@ We recovered an Android phone from a suspect in the D.C. area. We were able to g
 Flag format: `pctf{Station Name}`, e.g. `pctf{Metro Center}`
 
 ### Difficulty
-
-4/10
+Easy
 
 ### Flag
 

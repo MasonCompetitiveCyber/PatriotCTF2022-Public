@@ -8,7 +8,7 @@ NOTE: Provide only `main.py` in the challenge
 I'm new to web development, so I'm still trying to figure out how to properly secure and authenticate user sessions. If you find a way to become admin, I will give you the flag in the `admin.html` page
 
 ### Difficulty
-5/10?
+Medium
 
 ### Flag
 `PCTF{c4p4c10us_3xtr3m1s}`

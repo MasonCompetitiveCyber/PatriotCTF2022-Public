@@ -10,7 +10,7 @@ Hacked again, so I am now filtering those special words and characters, but I wo
 p.s. to save you some time, don't try getting a reverse shell
 
 ### Difficulty
-7/10?
+Hard
 
 ### Flag
 `PCTF{chri5_bumst34d_i5_100king_thicc}`

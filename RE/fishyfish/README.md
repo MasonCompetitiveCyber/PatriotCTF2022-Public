@@ -5,7 +5,7 @@ fishyfish
 This weird dude at work loves fish. He was fired for it. We found a weird assembly file on his machine when cleaning up his computer, can you figure it out?
 
 # Difficulty
-6/10
+Hard
 
 # Flag
 pctf{f1Sh1ng\_4\_Y4te5\_b4t3s\_oR\_h34venLy\_G4t35}

@@ -7,8 +7,7 @@ Steve is your typical boomer and stores his password on a sticky note on his mon
 Flag format: `PCTF{}`
 
 ### Difficulty
-
-3-4/10?
+Easy
 
 ### Flag
 

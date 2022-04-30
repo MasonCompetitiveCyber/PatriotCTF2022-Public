@@ -6,7 +6,7 @@ Keep it up!!
 
 
 # Difficulty
-3/10
+Medium
 
 # Flag
 PCTF{K33p_G0ing_U_G07_7h1s}

@@ -7,8 +7,7 @@ Our company's domain controller server was recently hacked. We suspect the attac
 Flag format: `PCTF{username}`
 
 ### Difficulty
-
-5/10?
+Medium
 
 ### Flag
 

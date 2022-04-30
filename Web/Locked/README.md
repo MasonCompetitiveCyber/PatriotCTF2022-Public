@@ -7,7 +7,7 @@ My website has been completely locked down!!! I don't care how good of a hacker 
 TODO: Put the URL of the website.
 
 # Difficulty
-2/10
+Easy
 
 # Flag
 pctf{Th3\_W3bsite\_w@s\_UnL0cK3d}

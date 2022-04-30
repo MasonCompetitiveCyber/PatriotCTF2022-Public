@@ -8,7 +8,7 @@ I am in the process of making the next big social media platform but I have a hi
 I'm testing out this new database architecture, and it's so beautiful I'll even let you look at the the code.
 
 ### Difficulty
-2/10?
+Easy
 
 ### Flag
 `PCTF{Exc3l_is_th3_b3st_d4t4b4s3}`

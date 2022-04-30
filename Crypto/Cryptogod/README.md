@@ -6,7 +6,7 @@ NOTE: `server.py` is what is shared with players (fake flag), `cryptogod.py` is 
 Do you think you're a cryptogod? Connect to `nc <IP> <PORT>` and prove yourself.
 
 ### Difficulty
-5-6/10?
+Hard
 
 ### Flag
 `PCTF{c0ngr4ts_y0u_h4v3_f0rg3d_y0ur_w4y_int0_th3_s3ct}`

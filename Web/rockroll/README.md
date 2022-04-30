@@ -4,7 +4,7 @@
 The website is blank! I can't see anything. Can you help me find what's hidden?
 
 ### Difficulty
-1/10
+Beginner
 
 ### Flag
 PCTF{r1Ck_D0wn_7h3_r0ll}

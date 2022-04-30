@@ -4,7 +4,7 @@
 Can you help Inspector Clouseau find the secret message?
 
 ### Difficulty
-1/10
+Beginner
 
 ### Flag
 `PCTF{i_w0u1d_1ik3_t0_buy_4_h4mburg3r}`

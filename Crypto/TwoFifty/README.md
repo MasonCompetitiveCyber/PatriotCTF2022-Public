@@ -6,7 +6,7 @@ What's the secret message?
 Flag format: PCTF{message}
 
 ### Difficulty
-2/10?
+Easy
 
 ### Flag
 `PCTF{this_s3miprim3_t00k_2700_CPU_c0r3_y34rs_t0_cr4ck}`

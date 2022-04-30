@@ -4,7 +4,7 @@
 I have come across this gibberish and I am certain that it contains very valuable information. Can you decode it for me?
 
 ### Difficulty
-5/10?
+Medium
 
 ### Flag
 `PCTF{stillhaventseenthefullmoviebeginningtoend}`

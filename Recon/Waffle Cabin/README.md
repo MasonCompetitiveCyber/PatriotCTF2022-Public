@@ -6,7 +6,7 @@ I ate this really amazing waffle after some icy runs, but through an unkown seri
 Flag format: `PCTF{Full_Resort_Name}`
 
 ### Difficulty
-6/10? Not sure yet. Depends on the number of guesses we allow.
+Medium
 
 ### Flag
 `PCTF{Okemo_Mountain_Resort}`

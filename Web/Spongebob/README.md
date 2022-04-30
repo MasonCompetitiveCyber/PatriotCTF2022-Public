@@ -8,7 +8,7 @@ Spongebob 😍
 Flag format note: case insensitive
 
 ### Difficulty
-2/10
+Easy
 
 ### Flag
 `PCTF{spongebob_looking_thicc}`

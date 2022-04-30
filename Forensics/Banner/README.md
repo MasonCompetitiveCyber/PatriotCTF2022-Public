@@ -4,7 +4,7 @@
 I was told to find the secret message being sent over this packet capture, but I'm stumped. Can you figure it out? I was told it has something to do with a banner?
 
 ### Difficulty
-2/10?
+Medium
 
 ### Flag
 `PCTF{just_at3_ch1ck3n_nugg3ts}`

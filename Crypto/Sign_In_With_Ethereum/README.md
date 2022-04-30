@@ -26,7 +26,7 @@ Can you generate the signature and submit it to server?
 Flag Format: PCTF{}
 
 ### Difficulty 
-6/10 ?
+Hard
 
 ### Flag
 PCTF{Randomized_Values_Should_Be_Used_While_Signing_In_With_Ethereum}

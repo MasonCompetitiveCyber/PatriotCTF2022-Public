@@ -4,7 +4,7 @@
 I haven't had string cheese since elementary school :(
 
 ### Difficulty
-1/10 
+Beginner
 
 ### Flag
 `PCTF{d0nt_string_m3_410ng_b3_my_v413ntin3}`

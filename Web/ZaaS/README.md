@@ -8,7 +8,7 @@ I am in the process of making the next big social media platform but I have a hi
 Due to market research, I think I found an opportunity. Nobody seems to know how to unzip files, so I made (un)Zip as a Service! I have learned from my mistakes, so I will be giving you the source code for the unzipping functionality (app/routes/upload.py) as well debug mode on so you can tell me how to fix my inevitably vulnerable code!
 
 ### Difficulty
-6/10?
+Hard
 
 ### Flag
 `PCTF{y0u_s1ipp3ry_1itt13_bugg3r}`

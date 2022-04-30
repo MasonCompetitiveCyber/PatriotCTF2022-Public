@@ -4,7 +4,7 @@
 Extract the saved password from the Mozilla Firefox roaming profile
 
 ### Difficulty
-3/10
+Easy
 
 ### Flag
 `PCTF{Br0ws3rs_ar3_th3_b3st_P@ssw0rd_R3p0s}`

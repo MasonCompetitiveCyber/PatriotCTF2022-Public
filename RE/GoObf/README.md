@@ -8,7 +8,7 @@ Can you Go through the check and own the flag?
 Flag Format: PCTF{}
 
 ### Difficulty 
-4?
+Easy
 
 ### Flag
 PCTF{S1mpl3_GoL4ng_0bfusc4t10n}

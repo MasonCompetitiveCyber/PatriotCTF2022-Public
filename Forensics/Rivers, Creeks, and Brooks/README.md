@@ -7,8 +7,7 @@ Can you find the flag on our file server?
 Flag format: `pctf{}`
 
 ### Difficulty
-
-4/10?
+Medium
 
 ### Flag
 

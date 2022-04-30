@@ -4,7 +4,7 @@
 Provide the right argument and you will have the flag.
 
 ### Difficulty
-1/10
+Beginner
 
 ### Flag
 PCTF{t4k3_4_pyc}

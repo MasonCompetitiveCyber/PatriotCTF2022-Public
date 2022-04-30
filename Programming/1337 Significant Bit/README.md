@@ -12,7 +12,7 @@ The data_structure.jpg image outlines the byte positions at which the secret ima
 note: the width, height, and # of channels are also encoded with 1337 LSB
 
 ### Difficulty
-4/10?
+Medium
 
 ### Flag
 `PCTF{f34r_th3_0ct0gun}`

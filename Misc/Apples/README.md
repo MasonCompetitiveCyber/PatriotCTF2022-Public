@@ -5,7 +5,7 @@ Apples
 I found this executable file from an old coworker who really likes apples. I think it contains some data we need to access, but I don't know how to get to it. I think he mentioned using a tool called steghide at one point when I talked to him, but when I tried using it on the executable file, it didn't work. Do you think that you can help me out here?
 
 # Difficulty
-2/10?
+Beginner
 
 # Flag
 pctf{@pples\_tast3\_amaz\!ng666}

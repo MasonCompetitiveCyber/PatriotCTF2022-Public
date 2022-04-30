@@ -7,8 +7,7 @@ Martha manages the production database for her company. She stores encrypted bac
 Flag format: PCTF{}
 
 ### Difficulty
-
-5-6/10? Not sure cause it's not actually hard crypto, you just have to take some time to crack it.
+Medium
 
 ### Flag
 

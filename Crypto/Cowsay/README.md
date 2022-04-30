@@ -6,7 +6,7 @@ I encrypted this file by XOR'ing it with my secret flag, but I seem to forgotten
 Reminder: flag format is PCTF{s4mpl3_fl4g}
 
 ### Difficulty
-2/10?
+Easy
 
 ### Flag
 `PCTF{this_is_4_sup3r_imp0rt4nt_bin4ry}`

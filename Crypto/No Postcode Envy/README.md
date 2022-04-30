@@ -4,7 +4,7 @@
 And we'll never be royals.... (royals)
 
 ### Difficulty
-2/10? Not sure yet.
+Beginner
 
 ### Flag
 `PCTF{OHLORDE}`

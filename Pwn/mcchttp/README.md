@@ -4,7 +4,7 @@
 - Flask? Django? Express.js? Ruby on Rails?? All are overrated. A REAL programmer should write it all in C.
 
 # Difficulty
-- 7 I think?
+- Hard
 
 # Flag
 - PCTF{wai_1s_my_CoDE_borkken}

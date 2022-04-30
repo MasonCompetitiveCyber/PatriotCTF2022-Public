@@ -6,7 +6,7 @@ I took this photo on 4/29/22 around Noon after I landed. Which city did I just a
 Flag format: PCTF{city}
 
 ### Difficulty
-6/10 
+Hard
 
 ### Flag
 `PCTF{Chicago}`

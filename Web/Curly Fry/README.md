@@ -6,7 +6,7 @@ p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/Pa
 Who needs Flask when you have Golang -- the new meta for web apps. Check out this super slick and functional website. 
 
 ### Difficulty
-2/10?
+Easy
 
 ### Flag
 `PCTF{tru5t_m3_im_4_ch3f}`

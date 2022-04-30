@@ -8,9 +8,7 @@ Flag format: `pctf{}`
 
 ### Difficulty
 
-7/10
-
-This may vary as an automated exploit was released that may work but I haven't tested it.
+Hard
 
 ### Flag
 

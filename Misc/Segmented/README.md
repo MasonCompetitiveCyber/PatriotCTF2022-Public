@@ -7,8 +7,7 @@ I think there's an internal website segmented off from the rest of our target's 
 Flag format: `PCTF{}`
 
 ### Difficulty
-
-5/10
+Hard
 
 ### Flag
 

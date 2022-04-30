@@ -9,7 +9,7 @@ Could you manipulate the running program's memory to show RoboTron9000 otherwise
 Flag Format: PCTF{}
 
 ### Difficulty
-3 (Very Easy)
+Easy
 
 ### Flag
 PCTF{8yp455_h42d_c0d3d_v41u35}

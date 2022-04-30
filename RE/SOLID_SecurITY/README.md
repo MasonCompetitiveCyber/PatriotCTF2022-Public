@@ -16,7 +16,7 @@ Flag Format: PCTF{}
 
 ### Difficulty 
 
-6/10
+Medium
 
 ### Flag
 

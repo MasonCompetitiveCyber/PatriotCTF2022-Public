@@ -8,7 +8,7 @@ can find a way to run some code.
 Website Link
 
 # Difficulty
-7/10
+Hard
 
 # Flag
 PCTF{Rc3_P0w3R_pR0V3n}

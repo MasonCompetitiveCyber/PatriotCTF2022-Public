@@ -8,7 +8,7 @@ I'm trying to spy on my co-worker because I suspect she spends her work time dra
 p.s. If I'm not mistaken, I think she uses a wireless mouse.
 
 ### Difficulty
-7/10?
+Expert
 
 ### Flag
 `PCTF{i_love_to_draw_with_a_mouse}`

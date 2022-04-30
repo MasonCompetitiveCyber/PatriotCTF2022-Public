@@ -6,7 +6,7 @@ What city is this picture taken in?
 Flag format: `PCTF{city_name}`
 
 ### Difficulty
-2/10? 
+Beginner
 
 ### Flag
 `PCTF{cottonwood}`

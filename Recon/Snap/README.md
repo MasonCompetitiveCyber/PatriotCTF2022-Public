@@ -6,7 +6,7 @@ We have been trying to track down a criminal on the run for several weeks. Yeste
 Flag format: `PCTF{Full_Google_Maps_Location_Name}`
 
 ### Difficulty
-2/10? Not sure yet.
+Medium
 
 ### Flag
 `PCTF{Weigh_Station:_Trinidad}`

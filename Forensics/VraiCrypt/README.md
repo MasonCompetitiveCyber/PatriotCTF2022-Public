@@ -7,7 +7,7 @@ One of our (ex) employee's was caught using some outdated disk encryption softwa
 Note: Both this challenge and `update with new challenge name` use the same memory dump file to save your valuable hard drive space. 
 
 ### Difficulty
-3/10
+Medium
 
 ### Flag
 `PCTF{r1P_7rU3CrPY7}`

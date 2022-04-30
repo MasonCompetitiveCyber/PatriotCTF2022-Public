@@ -8,7 +8,7 @@ Can you authenticate yourself to this service and steal the secret access code?
 Connect with `nc <IP> 8000`
 
 ### Difficulty
-7/10?
+Expert
 
 ### Flag
 `PCTF{p4ti3nc3_my_p4d4w4n}`

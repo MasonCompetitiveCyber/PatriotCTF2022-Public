@@ -8,7 +8,7 @@ I am in the process of making the next big social media platform but I have a hi
 While I work on fixing the vulnerable unzipping code, I think I found another market opportunity. Nobody seems to know how to untar files, so I made (un)Tar as a Service! I have learned from my mistakes, so I will be giving you the source code for the untar functionality (app/routes/upload.py) so you can tell me how to fix my inevitably vulnerable code!
 
 ### Difficulty
-8/10?
+Expert
 
 ### Flag
 `PCTF{r4c3c4r?_m0r3_1ik3_r4c3_t4r}`

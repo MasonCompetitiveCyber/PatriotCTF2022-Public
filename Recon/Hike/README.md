@@ -6,7 +6,7 @@ This is one of my favorite hikes. I recommend you do it, but first find out what
 Flag format: `PCTF{Mountain_Name}`
 
 ### Difficulty
-1/10 
+Beginner
 
 ### Flag
 `PCTF{Old_Rag_Mountain}`

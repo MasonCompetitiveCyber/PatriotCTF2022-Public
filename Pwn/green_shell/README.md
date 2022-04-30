@@ -4,7 +4,7 @@
 - Shells are pretty hard body parts. Can you break out of this one?
 
 # Difficulty
-- 1
+- Easy
 
 # Flag
 - PCTF{U_no_wat_tH3y_say_@ll_to@sTers_toaST_T0@st}

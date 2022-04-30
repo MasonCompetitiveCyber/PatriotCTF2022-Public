@@ -5,7 +5,7 @@ flowing
 Crashing on the rocks. Like water in a river. It can crash over.
 
 # Difficulty
-3/10
+Easy
 
 # Flag
 pctf{Wh3rEf0R3\_Art\_Th0u\_0v3rFlOw}

@@ -6,7 +6,7 @@ We received a report from a user about *sus*picious notifications on their machi
 The flag is the handler id of the notification. For example, if the handler was 357, the flag would be PCTF{357}
 
 ### Difficulty
-2-3/10
+Easy
 
 ### Flag
 `PCTF{114}`

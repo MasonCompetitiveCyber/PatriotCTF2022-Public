@@ -12,10 +12,7 @@ I believe you can! You Rock!
 Flag Format: PCTF{}
 
 ### Difficulty 
-Need recommendations for challenge difficulty.
-
-Maybe somewhere in between:
-4-6/10 ?
+Medium
 
 Cracking might take about 5 minutes or more.
 

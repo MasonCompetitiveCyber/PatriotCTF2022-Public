@@ -8,7 +8,7 @@ Are you on Big Shaq's math level? Solve 5 questions before the time runs out to 
 Connect with `nc <IP> <PORT>
 
 ### Difficulty
-4/10?
+Hard
 
 ### Flag
 `PCTF{2_plus_2_1s_4_m1nus_0n3_th4ts_3_qu1ck_m4ths}`

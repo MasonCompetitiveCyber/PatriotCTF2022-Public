@@ -9,7 +9,7 @@ The flag is the number of seconds the program stays dormant for. For example, if
 Note: This challenge and Vrai Crypt use the same memory dump.
 
 ### Difficulty
-5/10
+Medium
 
 ### Flag
 `PCTF{300}`

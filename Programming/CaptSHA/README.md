@@ -7,8 +7,7 @@ This service requires some sort of captcha to access it. Can you get in?
 Flag format: `PCTF{}`
 
 ### Difficulty
-
-4/10?
+Hard
 
 ### Flag
 

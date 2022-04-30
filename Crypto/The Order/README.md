@@ -4,7 +4,7 @@
 We are not sure what these strange characters are supposed to mean. Can you decipher it?
 
 ### Difficulty
-2/10? Not sure yet.
+Beginner
 
 ### Flag
 `PCTF{Dop3_numb3r_syst3m!}`

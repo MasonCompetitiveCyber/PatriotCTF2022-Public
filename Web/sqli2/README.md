@@ -6,7 +6,7 @@ said there is a filter. See if you can crack it.
 
 
 # Difficulty
-6/10
+Medium
 
 # Flag
 PCTF{f1l7ers_n0t_s3cur3}

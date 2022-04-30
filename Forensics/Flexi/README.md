@@ -4,7 +4,7 @@
 Discover the flag within the .zip attachment
 
 ### Difficulty
-2/10
+Medium
 
 ### Flag
 `PCTF{CL34rT3xt_N3v3r_F3lt_S0_Gud}`

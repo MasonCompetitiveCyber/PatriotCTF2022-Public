@@ -4,7 +4,7 @@
 Someone broke into our systems and managed to exfiltrate some data, but we don't know how. Can you find out what data they stole?
 
 ### Difficulty
-4/10?
+Hard
 
 ### Flag
 `PCTF{n0t_4_v3ry_sn34ky_3xf1l}`

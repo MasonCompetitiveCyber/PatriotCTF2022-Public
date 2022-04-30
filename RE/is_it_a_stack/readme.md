@@ -3,7 +3,7 @@ Is it a stack
 # description
 My stack data structure in this program is acting weird can you help me?
 # difficulty
-4/10
+Hard
 # flag
 pctf{N0_1ts_@_l1nk3d_l1st}
 # hints

@@ -10,7 +10,7 @@ Someone hacked my site after I read their message, so I am no longer reading DMs
 p.s. To save you some time, don't try getting a reverse shell
 
 ### Difficulty
-3/10?
+Medium
 
 ### Flag
 `PCTF{y0u_can_s1gn_my_c00k13s_anyt1m3_;)}`

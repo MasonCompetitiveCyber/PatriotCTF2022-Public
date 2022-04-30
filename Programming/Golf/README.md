@@ -35,9 +35,7 @@ Final entries are due 2 hours before the end of the competition.
 **Submit your code to Andy in Discord (not in the flag box!)**
 
 ### Difficulty
-
-Varies
-5/10
+Medium
 
 ### Flag
 

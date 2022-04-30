@@ -3,7 +3,7 @@ Cool VM 1
 # description
 I found this flag checker program, but it only runs on the cool VM
 # difficulty
-6/10
+Expert
 # flag
 pctf{vms_are_pretty_cool}
 # hints

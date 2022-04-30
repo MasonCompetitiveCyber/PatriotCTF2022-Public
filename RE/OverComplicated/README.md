@@ -5,7 +5,7 @@ OverComplicated
 I sure do like making things more complicated that they need to be.
 
 # Difficulty
-2/10
+Easy
 
 # Flag
 pctf{s0meT1me$\_YoU\_g0TtA\_dO\_iT\_loNG\_h4Nd}

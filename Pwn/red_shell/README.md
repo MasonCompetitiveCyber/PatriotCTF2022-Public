@@ -4,7 +4,7 @@
 - Our latest patch added basic stdout redirection!
 
 # Difficulty
-- 2
+- Easy
 
 # Flag
 - PCTF{hay_p@is@n0s_itS_thesup3r_MARIO_sup3r_ShoW!}

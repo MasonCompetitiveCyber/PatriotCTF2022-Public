@@ -6,7 +6,7 @@ p.s. For testing, go to [INSTALL.md](https://github.com/MasonCompetitiveCyber/Pa
 I am in the process of making the next big social media platform but I have a history of implementing software insecurely. If you can get into the admin user, I will give you a flag. Feel free to send me a message, I try to respond quickly! 
 
 ### Difficulty
-3/10?
+Medium
 
 ### Flag
 `PCTF{hungry_4_c00ki3s}`

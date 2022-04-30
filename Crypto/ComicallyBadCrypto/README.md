@@ -8,7 +8,7 @@ NOTE: Provide only `main.py` in the challenge
 I don't know why this website needs an admin page. I guess I couldn't resist risking the unauthorized access of my super secret flag.
 
 ### Difficulty
-8/10?
+Expert
 
 ### Flag
 `PCTF{y0ur3_kind4_cr1ng3_f0r_s01ving_this_ng1}`
