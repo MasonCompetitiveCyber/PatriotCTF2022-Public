@@ -15,28 +15,28 @@ See if you can find the app build number for facebook.
 Android 5:
 Find the facebook user id for the owner of the phone.
 
-
+<br>
 Writeup: 
-
-android 1
-  check deleted files and then filesystem then looking at the thumbnail listing
+<br>
+android 1:<br>
+  check deleted files and then filesystem then looking at the thumbnail listing<br>
   flag: PCTF{863c2bf4685527570255417b3301aebf}
-  
- android 2
-  there is a contacts tab in autopsy which is immediately obvious
+  <br><br>
+ android 2:<br>
+  there is a contacts tab in autopsy which is immediately obvious<br>
   flag: PCTF{662-364-5944}
-  
-  android 3
-    email can be found in web accounts tab
+  <br><br>
+  android 3:<br>
+    email can be found in web accounts tab<br>
     flag: PCTF{bensmith1995masoncc@gmail.com}
     
     
- android 4
-  in the installed programs tab you can select library.db in com.facebook.katana and then move out of the com.android.vending folder to com.facebook.katana folder then you can go to /databases where you can get the app versiom from opening composer.db in dbbrowser for SQLite
+ android 4:<br>
+  in the installed programs tab you can select library.db in com.facebook.katana and then move out of the com.android.vending folder to com.facebook.katana folder then you can go to /databases where you can get the app versiom from opening composer.db in dbbrowser for SQLite<br>
   flag: PCTF{361571111}
   
-  android 5 
-      in the installed programs tab you can select library.db in com.facebook.katana and then move out of the com.android.vending folder to com.facebook.katana folder then you can go to /databases where you can get the user id for the facebook profile from composer_db-uid 
-      which you can then get the url of the facebook htttps://www.facebook.com/profile.php?id=userid
-      flag: PCTF{https://www.facebook.com/profile.php?id=100080118587321}
+  android 5:<br> 
+      in the installed programs tab you can select library.db in com.facebook.katana and then move out of the com.android.vending folder to com.facebook.katana folder then you can go to /databases where you can get the user id for the facebook profile from composer_db-uid
+      which you can then get the url of the facebook htttps://www.facebook.com/profile.php?id=userid<br>
+      flag: PCTF{https://www.facebook.com/profile.php?id=100080118587321}<br>
             PCTF{https://www.facebook.com/profile.php?id=100079925037491}
