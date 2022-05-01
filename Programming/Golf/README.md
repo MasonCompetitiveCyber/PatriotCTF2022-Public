@@ -42,10 +42,6 @@ Medium
 
 `PCTF{n0w_pl4y_s0m3_c0d3_g0lf}`
 
-### Hints
-
-putchar
-
 ### Author
 
 Andy Smith
