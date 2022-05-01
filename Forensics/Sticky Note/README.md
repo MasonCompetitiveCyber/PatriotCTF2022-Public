@@ -34,3 +34,5 @@ You can use a tool like [Thumbcache Viewer](http://thumbcacheviewer.github.io/) 
 
 The full image can be seen below:
 ![](/writeup-images/stickynote2.jpg)
+
+An alternative solution was also found. The image was stored in the Windows 8 file explorer cache: `AppData/Local/Packages/FileManager_cw5n1h2txyewy/LocalState/Tile0.jpg`. Extracting SteveProfile.zip and searching for all JPGs with `find . -name "*.jpg"` reveals a small set of files, including Tile0.jpg with a copy of the flag.
