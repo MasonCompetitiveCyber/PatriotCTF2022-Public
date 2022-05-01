@@ -24,17 +24,18 @@ The scoring structure is as follows:
 | Characters | Award                   |
 | ---------- | ----------------------- |
 | 56 to 64   | Flag                    |
-| 51 to 55   | Flag + 100 bonus points |
-| 49 to 50   | Flag + 200 bonus points |
-| < 49       | Flag + 400 bonus points |
+| 51 to 55   | Flag + 25 bonus points |
+| 49 to 50   | Flag + 50 bonus points |
+| < 49       | Flag + 100 bonus points |
 
 <br>
 
-Final entries are due 2 hours before the end of the competition.
+Final entries are due 1 hour before the end of the competition.
 
 **Submit your code to Andy in Discord (not in the flag box!)**
 
 ### Difficulty
+
 Medium
 
 ### Flag
@@ -63,8 +64,8 @@ Compile the program with `gcc prog.c -o prog`
 
 Calculate character count with `cat prog.c | sed -z '$ s/\n$//' | wc -c`
 
-Smallest solution I know of is:
+Smallest solution from the CTF is the following, 39 characters:
 
 ```c
-main(i){for(;i<40;)putchar(i++%10?i%2?32:42:10);}
+main(i){for(;++i<6;)puts("* * * * *");}
 ```
