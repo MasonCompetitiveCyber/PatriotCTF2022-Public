@@ -13,3 +13,5 @@ Challenges were in the following difficulties:
 - Medium
 - Hard
 - Expert
+
+The competition used a custom CTFd Docker container plugin we created that allowed teams to spin up their own containers for certain challenges. [You can find it here](https://github.com/andyjsmith/CTFd-Docker-Plugin).
