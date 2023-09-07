@@ -32,7 +32,7 @@ This web app is vulnerable to template injection. After signing up, send a test 
 
 We see that 7*7 was evaluated to 49, so we have successful template injection. There is a filter in place blocking these characters: `._[]|\`. This is so you can't attempt to execute python code to run system commands 'cause I want it solved another way.
 
-In flask, we can have it give us the config file with this `{config}`, so let's try that:
+In flask, we can have it give us the config file with this `{{config}}`, so let's try that:
 <p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/raw/main/writeup-images/ssti_config.png" width=40%  height=40%></p>
 
 We see a `SECRET_KEY` set to `ifXEaNLEiDLIuquyRKzfeJJWzntoIm`. If we have the app's secret key, we can sign the session cookies used by the app. We'll use a tool called `flask-unsign` to do this for us (install w/ `pip3 install flask-unsign`).
