@@ -20,11 +20,3 @@ The virus may be disquised as something Totally Innocent
 
 ### Author
 Matthew Johnson (Meat Ball)
-
-### Writeup
-This challenge is a play on words of the now obsolete encryption software TrueCrypt.
-To begin, use [Volatility](https://www.volatilityfoundation.org/) to identify some base information about the image using the imageinfo command. Running this command shows that it is most likely a windows 7 machine.
-
-<p align="center"><img src="https://github.com/MasonCompetitiveCyber/PatriotCTF2022-Public/blob/main/writeup-images/VolatilityImageInfo.PNG?raw=true"></p>
-
-From this point forwards, we will use `--profile=Win7SP1x64` to tell Volatility to treat it as a windows 7 dump.
